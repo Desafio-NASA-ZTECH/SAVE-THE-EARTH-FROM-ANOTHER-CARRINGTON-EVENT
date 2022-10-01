@@ -12,5 +12,5 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 app.use("/",express.static("../frontend/views"))
 
 app.listen(3000,()=>{
-    console.log("servidor iniciado na porta 3000")
+    console.log("servidor iniciado na localhost:3000")
 })
