@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(116.95deg, #000000 0.53%, #0C1A33 25.85%, #1A5BDB 99.73%);
+    backdrop-filter: blur(2px);
+    width: 1200px;
+    height: 802px;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.frame4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 4px 4px 4px 4px;
+    position: absolute;
+    height: 98.1px;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 20px;
+
+    width: 1490px;
+    height: 78.1px;
+
+}
+
+.frame65 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.frame7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 350px;
+    gap: 30px;
+
+}
