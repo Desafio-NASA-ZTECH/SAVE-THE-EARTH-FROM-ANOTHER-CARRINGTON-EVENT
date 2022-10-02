@@ -1,0 +1,58 @@
+.Membros {
+    background-color: white;
+    margin-top: 50px;
+    width: 1663px;
+    height: 1100px;
+
+    padding: 2%;
+}
+
+.Membros>h1 {
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 51px;
+
+    margin-bottom: 2%;
+
+
+}
+
+.Membros>p {
+    font-family: "Arian";
+    font-style: normal;
+    font-weight: 300;
+}
+
+.cardMember {
+    padding: 10px;
+    width: 570px;
+    height: 230px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+    text-align: center;
+
+
+
+}
+
+.cardMember>img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.cardMember>p {
+    font-family:"Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
