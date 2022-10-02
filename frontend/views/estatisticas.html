@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/estatisticas.css">
+    <title>Estatistica</title>
+
+    <style>
+        @font-face {
+            font-family: "Arian";
+            src: url("../image/Arian\ LT\ Light.ttf");
+        }
+
+        @font-face {
+            font-family: "Montserrat";
+            src: url("../image/Montserrat-VariableFont_wght.ttf");
+        }
+
+        @font-face {
+            font-family: "Monospace";
+            src: url("../image/Monospace.ttf");
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="frame4">
+        <div class="frame3">
+            <div class="frame65">
+                <img src="../image/logo.svg" alt="Logo" width="90" height="62.1">
+                <p class="" href="#" style="color:white ;">Z-TECH</p>
+            </div>
+
+            <div class="frame7">
+                <div class="frame8">
+                    <a href="./index.html">inicio</a>
+                </div>
+
+                <div class="frame10">
+                    <a href="./sobreNos.html">sobre nós</a>
+                </div>
+
+                <div class="frame9">
+                    <a href="./estatisticas.html">ver estatisticas</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <header>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex align-items-center">
+                    <img src="../image/SolPage.svg" alt="Planeta Terra">
+
+                    <div class="p-5">
+                        <h1 class="textLadingPage2">O acompanhamento é umas das formas de prevenção mais acertada. </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img class="imageTerra" src="../image/TerraMenor.svg" alt="Astronauta">
+                <img class="imageLua" src="../image/luaMenor.svg" alt="Astronauta">
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <hr class="rowWhite">
+
+        <div class="d-flex justify-content-center textoCalc">
+            <div class="frame12 text-aling-center">
+                <div class="frame71 text-aling-center">
+                    <p>30/09/2022</p>
+                    <p class="textMini">última atualização</p>
+                </div>
+
+                <div class="frame72 text-aling-center">
+                    <p>Sim</p>
+                    <p class="textMini">Detecção de anomalia</p>
+
+                </div>
+
+                <div class="frame73 text-aling-center">
+                    <p>85%</p>
+                    <p class="textMini">Chances de ocorrer</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Analises-->
+        <div class="analises">
+            <h1>Analise de previsão</h1>
+
+            <p>Acompanhe nossos marcadores que registram todas as variações que ocorrem na estrela, Sol. Através deles
+                que pode-se inferir a possibilidade de uma tempestade solar</p>
+
+            <br>
+            <br>
+
+            <div class="d-flex justify-content-center">
+
+                <div>
+
+                </div>
+                <div class="cardInfos text-aling-center">
+                    <p><strong>Chances de ocorrer</strong></p>
+                    <div class="teste">
+                        
+                        <canvas id="myChart2"></canvas>
+                    </div>
+
+                </div>
+
+                <div class="cardInfos text-aling-center">
+                    <p><strong>Acuracia do modelo</strong></p>
+                    <div class="teste2">
+                        <canvas id="myChart3" ></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-aling-center">
+                <p class="mt-5">Intervalos de tempestades solares</p>
+                <div class="teste3">
+                    <canvas id="myChart"></canvas>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <footer class="frame44">
+        <nav>
+            <div class="frame3">
+                <div class="frame65">
+                    <img src="../image/logo.svg" alt="Logo" width="90" height="62.1">
+                    <p class="" href="#" style="color:white ;">Z-TECH</p>
+                </div>
+
+                <div>
+                    <h2><strong>Menu</strong></h2>
+                    <p>sobre nós</p>
+                    <p>contato</p>
+                    <p>ver estatistica</p>
+                </div>
+
+            </div>
+            <p>Ser um explorador da galaxia é mais do que possivel</p>
+        </nav>
+
+        <p class="copyDi">©2022 Z-TECH. Todos os direitos reservado</p>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/graficos.js"></script>
+
+</html>
