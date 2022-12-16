@@ -43,11 +43,10 @@ body {
 
 .analises {
     background-color: white;
-    margin-top: 50px;
-    width: 1663px;
-    height: 1200px;
 
-    text-align: center;
+    width: 100%;
+    height: max-content;
+    padding: 30px;
 }
 
 .analises>h1 {
@@ -69,44 +68,41 @@ body {
 }
 
 .cardInfos {
-    padding: 10px 20px;
-
-    width: 570px;
-    height: 357px;
-
+    padding: 20px;
+    width: 100%;
     /* WHITE */
 
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-
-    margin-left: 10%;
+    height: 100%;
 }
 
 .teste {
+    text-align: center;
     padding: 10px;
-    width: 500px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 
 .teste2 {
-    position: absolute;
-
-    bottom: 22%;
-    left: 88%;
-    padding: 80px;
-    width: 460px;
-
+    max-width: 460px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
 
 .teste3 {
 
-    position: absolute;
+    /* position: absolute;
     left: 30%;
 
-    padding: 80px;
-    width: 910px;
+    padding: 80px; */
+    width: 100%;
 
 
 }
